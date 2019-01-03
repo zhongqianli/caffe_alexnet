@@ -1,0 +1,15 @@
+test_iter: 1000
+test_interval: 1000
+base_lr: 0.009999999776482582
+display: 20
+max_iter: 450000
+lr_policy: "step"
+gamma: 0.10000000149011612
+momentum: 0.8999999761581421
+weight_decay: 0.0005000000237487257
+stepsize: 100000
+snapshot: 10000
+snapshot_prefix: "snapshot/std_alexnet"
+solver_mode: GPU
+net: "std_alexnet_train_test.prototxt"
+type: "SGD"
